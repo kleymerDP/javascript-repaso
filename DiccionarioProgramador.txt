@@ -1,0 +1,64 @@
+
+- Paradigma: Es una forma de pensar o abordar cierto tema.
+
+- Paradigma de Programación: Es una forma de abordar la programación. Una forma de programar siguiendo ideas fundamentales.
+
+- Programación Funcional:
+    * Nos importa mucho más el ¿Qué?, ¿Qué resultado esperamos?.
+    * No realizar mutaciones.
+    * Su idea es tener un nuevo valor a partir de llamar un método o función sobre
+    la raíz original.
+    * Dentro de este paradigma, podemos asumir que tenenos un montón de memoria disponible y así el paradigma funcional nos fuerza a crear más variables teniendo que elegir un nombre apropiado para cada una de ellas.
+    * Promueve el uso de 'funciones puras'.
+    * Se llama así por el peso y el protagonismo que tienen las funciones en estos lenguajes de programación.
+
+- Paradigma Imperativo:
+    * Lo importante es el ¿Cómo?, ¿Cómo debe funcionar el programa?.
+    * Tiene más detaññes de como tiene que funcional el programa, se suele decir que es mucho más verboso.
+
+
+
+- Funciones:
+    * Son las ciudadanas del primer orden en estos lenguajes (JS).
+    * A una variable le podemos asignar una función.
+    * Son un valor más.
+
+- Funciones Puras:
+    * Son las funciones que al ser invocadas con los mismos argumentos, siempre producen el mismo valor.
+    * No producen efectos secundarios, osea funciones que después de haber sido ejecutadas no producen ningún cambio en el estado del programa, no tocan ninguna variable externa.
+    * Son el ingrediente que va a hacer que nuestras funciones sean mucho más predecibles, lo que significa: menos bugs, menos lugares donde equivocarnos y código predecible.
+    RESUMEN 1: Una función predecible que no cause ningún efecto secundario.
+    RESUMEN 2: Retornan siempre el mismo resultado ante los mismos parámetros, (No producen efectos secundarios)
+- Funciones de orden superior:
+    * Lo llamamos así porque reciben como parámetro otras funciones o a las que como resultado de su ejecución nos retorna otra función para que llamemos más adelante.
+    * ejem: map(), filter(), reduce();
+
+
++ método map()
+    - No podemos ejecutar funciones asincronas ni esperar el resultado callbacks dentro de map().
+    - Si o si, dentro de map() tiene que ser sincrono.
+
+
+PLUMON INDELEBLE +1
+map(), filter(), reduce() deben ser funciones puras, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++---------------------------------
+| - retorno de manera 'implicita'
+| - 
