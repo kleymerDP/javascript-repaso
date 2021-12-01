@@ -21,7 +21,7 @@ const products = [
     }
 ];
 
-// console.log(producto);
+console.log(products);
 
 const disconuntedProducts = products.map(function(product) {
     if (product.cost < 1000) return product;
